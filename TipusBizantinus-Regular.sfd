@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1176642634
-ModificationTime: 1792178319
+ModificationTime: 1792182571
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -85,6 +85,7 @@ Lookup: 258 0 0 "'kern' Horizontal Kerning lookup e" { "'kern' Horizontal Kernin
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup a" { "'kern' Horizontal Kerning lookup a subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup i" { "'kern' Horizontal Kerning lookup i subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup o" { "'kern' Horizontal Kerning lookup o subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup f" { "'kern' Horizontal Kerning lookup f subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup r" { "'kern' Horizontal Kerning lookup r subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -5161,31 +5162,31 @@ VStem: 41 90 344 78
 LayerCount: 2
 Fore
 SplineSet
-518 90 m 5xd8
- 506 26 469.916015625 -10.7001953125 429 -14 c 4
- 367 -19 345 12 344 70 c 5
- 299 25 213 -14 158 -14 c 4
- 104 -14 42 15 41 100 c 4
- 39 204 115 269 343 308 c 5
- 344 371 l 6
- 345 428 296 452 246 452 c 4xb8
- 195 452 165 430 163 399 c 4
- 159 366 179 365 187 355 c 5
- 179 340 151 320 118 322 c 4
- 76 324 58 375 75 411 c 4
- 89 441 136 483 244 484 c 4
- 310 485 353 472 386 439 c 4
- 429 396 423 317 423 317 c 5
- 422 196 l 6
- 422 124 415 49 448 49 c 4
- 483 49 491 99 491 99 c 5
- 518 90 l 5xd8
-343 283 m 5
- 163 237 134 171 131 136 c 6
- 131 134 l 5
- 127 79 162 55 201 52 c 4
- 233 49 319 73 343 102 c 5
- 343 283 l 5
+518 90 m 1xd8
+ 506 26 469.916015625 -10.7001953125 429 -14 c 0
+ 367 -19 345 12 344 70 c 1
+ 299 25 213 -14 158 -14 c 0
+ 104 -14 42 15 41 100 c 0
+ 39 204 115 269 343 308 c 1
+ 344 371 l 2
+ 345 428 296 452 246 452 c 0xb8
+ 195 452 165 430 163 399 c 0
+ 159 366 179 365 187 355 c 1
+ 179 340 151 320 118 322 c 0
+ 76 324 58 375 75 411 c 0
+ 89 441 136 483 244 484 c 0
+ 310 485 353 472 386 439 c 0
+ 429 396 423 317 423 317 c 1
+ 422 196 l 2
+ 422 124 415 49 448 49 c 0
+ 483 49 491 99 491 99 c 1
+ 518 90 l 1xd8
+343 283 m 1
+ 163 237 134 171 131 136 c 2
+ 131 134 l 1
+ 127 79 162 55 201 52 c 0
+ 233 49 319 73 343 102 c 1
+ 343 283 l 1
 EndSplineSet
 Kerns2: 170 -30 "'kern' Horizontal Kerning lookup a subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Asmall
@@ -5260,7 +5261,7 @@ EndChar
 
 StartChar: d
 Encoding: 100 100 168
-Width: 563
+Width: 549
 GlyphClass: 1
 Flags: HMW
 HStem: 451 30<227.5 276.5 195.5 281.5> 690 20G
@@ -5268,21 +5269,21 @@ VStem: 38 90<180.5 291.5> 363 92
 LayerCount: 2
 Fore
 SplineSet
-554 109 m 1
- 527 35 477 -16 433 -17 c 0
+543 91 m 1
+ 513.445945946 10 477.006603927 -16.3528440599 433 -17 c 0
  365 -18 370 44 371 80 c 1
  346 29 306 -14 228 -13 c 0
  187 -12 38 10 38 223 c 0
- 38 360 137 491 254 491 c 4
+ 38 360 137 491 254 491 c 0
  299 491 335 470 370 424 c 1
  375 496 365 637 357 658 c 0
  351 672 337 676 313 676 c 1
  313 705 l 1
- 327 701 413 697 455 710 c 1
- 438 488 430 197 442 66 c 0
- 443 53 453 39 469 42 c 0
- 487 45 506 67 538 120 c 1
- 554 109 l 1
+ 327 701 413 697 455 710 c 5
+ 442 488 437.027832031 177 441 90 c 4
+ 441.594676293 76.9751637205 446 41.7845533363 465 42 c 0
+ 485.261089488 42.2297465334 512 103 512 103 c 5
+ 543 91 l 1
 363 352 m 0
  358 427 306 453 257 453 c 0
  198 453 128 400 128 258 c 0
@@ -5328,7 +5329,7 @@ EndChar
 
 StartChar: f
 Encoding: 102 102 170
-Width: 356
+Width: 360
 GlyphClass: 1
 Flags: HMW
 HStem: 0 21G<120 199 120 120> 413 35<30 120 30 120 199 199 199 333> 686 20G<206 315.5>
@@ -5337,23 +5338,24 @@ LayerCount: 2
 Fore
 SplineSet
 198 0 m 1
- 175 7 134 7 111 0 c 5
- 113.860655891 21.116884417 116 413 115 444 c 5
+ 175 7 134 7 111 0 c 1
+ 113.860655891 21.116884417 116 413 115 444 c 1
  30 444 l 1
  30 482 l 1
- 115 482 l 1
- 116 624 104 710 251 710 c 0
+ 115 485 l 5
+ 116 627 104 710 251 710 c 0
  272 710 300 702 316 693 c 0
  350 674 367 627 332 605 c 0
  306 588 282 597 271 599 c 1
  275 625 266 679 226 671 c 0
  195.038085938 664.807617188 192 647 192 577 c 2
- 192 482 l 1
+ 192 485 l 1
  333 482 l 1
  333 444 l 1
  194 444 l 1
  193 413 195.382682304 21.1063982486 198 0 c 1
 EndSplineSet
+Kerns2: 173 15 "'kern' Horizontal Kerning lookup f subtable" 213 15 "'kern' Horizontal Kerning lookup f subtable" 214 15 "'kern' Horizontal Kerning lookup f subtable" 215 15 "'kern' Horizontal Kerning lookup f subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Fsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Fsmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Fsmall
@@ -5687,36 +5689,36 @@ EndChar
 
 StartChar: p
 Encoding: 112 112 180
-Width: 506
+Width: 530
 GlyphClass: 1
-Flags: MW
-HStem: -210 21G -14 33<228 267.5 221.5 321.5> 422 63<255.5 309.5>
-VStem: 65 78 379 89<200.5 241>
+Flags: HMW
+HStem: -210 21G -14 33<252 291.5 245.5 345.5> 422 63<279.5 333.5>
+VStem: 89 78 403 89<200.5 241>
 LayerCount: 2
 Fore
 SplineSet
-468 261 m 0
- 468 140 394 -14 249 -14 c 0
- 207 -14 175 0 139 33 c 1
- 140 -132 l 2
- 140 -137 140 -138 140 -139 c 0
- 140 -141 140 -143 143 -209 c 1
- 130 -205 74 -202 55 -210 c 1
- 60 -189 65 -45 65 28 c 0
- 65 129 74 360 51 437 c 0
- 46 451 27 446 8 449 c 1
- 8 477 l 1
- 24 474 96 471 139 485 c 1
- 139 409 l 1
- 142 407 l 1
- 164 436 215 485 296 485 c 0
- 389 485 468 399 468 261 c 0
-379 229 m 0
- 379 253 373 422 246 422 c 0
- 208 422 146 396 139 356 c 1
- 139 90 l 2
- 139 67 193 19 250 19 c 0
- 285 19 379 47 379 229 c 0
+492 261 m 0
+ 492 140 418 -14 273 -14 c 0
+ 231 -14 199 0 163 33 c 1
+ 164 -132 l 2
+ 164 -137 164 -138 164 -139 c 0
+ 164 -141 164 -143 167 -209 c 1
+ 154 -205 98 -202 79 -210 c 1
+ 84 -189 89 -45 89 28 c 0
+ 89 129 98 360 75 437 c 0
+ 70 451 51 446 32 449 c 1
+ 32 477 l 1
+ 48 474 120 471 163 485 c 1
+ 163 409 l 1
+ 166 407 l 1
+ 188 436 239 485 320 485 c 0
+ 413 485 492 399 492 261 c 0
+403 229 m 0
+ 403 253 397 422 270 422 c 0
+ 232 422 170 396 163 356 c 1
+ 163 90 l 2
+ 163 67 217 19 274 19 c 0
+ 309 19 403 47 403 229 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Psmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Psmall
@@ -6045,28 +6047,28 @@ EndChar
 
 StartChar: z
 Encoding: 122 122 190
-Width: 447
+Width: 453
 GlyphClass: 1
 Flags: HMW
-HStem: 0 31<124 268 268 323.5> 439 31<108 146 146 290>
+HStem: 0 31<127 271 271 326.5> 439 31<111 149 149 293>
 LayerCount: 2
 Fore
 SplineSet
-421 142 m 1
- 406 0 l 1
- 12 0 l 1
- 12 19 l 1
- 290 439 l 1
- 146 439 l 2
- 70 439 66 404 58 347 c 1
- 36 347 l 1
- 42 474 l 1
- 405 474 l 1
- 405 455 l 1
- 124 35 l 1
- 268 35 l 2
- 379 35 385 64 402 145 c 1
- 421 142 l 1
+424 142 m 1
+ 409 0 l 1
+ 15 0 l 1
+ 15 19 l 1
+ 293 439 l 1
+ 149 439 l 2
+ 73 439 69 404 61 347 c 1
+ 39 347 l 1
+ 45 474 l 1
+ 408 474 l 1
+ 408 455 l 1
+ 127 35 l 1
+ 271 35 l 2
+ 382 35 388 64 405 145 c 1
+ 424 142 l 1
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Zsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Zsmall
@@ -6562,12 +6564,12 @@ VStem: 41 90 344 78
 LayerCount: 2
 Fore
 SplineSet
-307 558 m 5
- 281 558 l 5
- 193 644 l 6
- 177 658 174 688 193 701 c 4
- 218 720 248 707 257 690 c 6
- 307 558 l 5
+307 556 m 5
+ 281 556 l 5
+ 193 642 l 6
+ 177 656 174 686 193 699 c 4
+ 218 718 248 705 257 688 c 6
+ 307 556 l 5
 518 90 m 1xd8
  506 26 469.916015625 -10.7001953125 429 -14 c 0
  367 -19 345 12 344 70 c 1
@@ -6863,26 +6865,25 @@ VStem: 40 72
 LayerCount: 2
 Fore
 SplineSet
-455 162 m 5
- 445 129 384 -12 234 -12 c 4
- 118 -12 37 72 38 221 c 4
- 40 414 163 484 247 484 c 4
- 346 484 422 424 433 287 c 5
- 110 287 l 5
- 114 101 207 59 276 59 c 4
- 369 59 414 130 438 169 c 5
- 455 162 l 5
-327 320 m 5
- 319 371 309 441 226 441 c 4
- 169 441 130 412 113 320 c 5
- 327 320 l 5
-414 669 m 0
- 414 647 393 636 377 626 c 2
- 244 543 l 1
- 208 543 l 1
- 335 671 l 2
- 349 684 369 701 384 701 c 0
- 403 701 414 687 414 669 c 0
+213 556 m 5
+ 239 556 l 5
+ 327 642 l 6
+ 343 656 346 686 327 699 c 4
+ 302 718 272 705 263 688 c 6
+ 213 556 l 5
+455 162 m 1
+ 445 129 384 -12 234 -12 c 0
+ 118 -12 37 72 38 221 c 0
+ 40 414 163 484 247 484 c 0
+ 346 484 422 424 433 287 c 1
+ 110 287 l 1
+ 114 101 207 59 276 59 c 0
+ 369 59 414 130 438 169 c 1
+ 455 162 l 1
+327 320 m 1
+ 319 371 309 441 226 441 c 0
+ 169 441 130 412 113 320 c 1
+ 327 320 l 1
 EndSplineSet
 Kerns2: 168 20 "'kern' Horizontal Kerning lookup e subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Eacutesmall
@@ -6901,12 +6902,12 @@ VStem: 40 72
 LayerCount: 2
 Fore
 SplineSet
-299 558 m 5
- 273 558 l 5
- 185 644 l 6
- 169 658 166 688 185 701 c 4
- 210 720 240 707 249 690 c 6
- 299 558 l 5
+299 556 m 5
+ 273 556 l 5
+ 185 642 l 6
+ 169 656 166 686 185 699 c 4
+ 210 718 240 705 249 688 c 6
+ 299 556 l 5
 455 162 m 1
  445 129 384 -12 234 -12 c 0
  118 -12 37 72 38 221 c 0
@@ -7017,23 +7018,23 @@ VStem: 90 78
 LayerCount: 2
 Fore
 SplineSet
-288 117 m 5
- 252 -6 188.989257812 -13.5791015625 181 -14 c 4
- 105 -18 86.7646484375 36.39453125 90 211 c 4
- 91.3154296875 282.015625 99 419 94 431 c 4
- 88.1416015625 445.059570312 69 453 46 453 c 5
- 46 482 l 5
- 58 478 146 474 187 488 c 5
- 181 420 175.999023438 249.958007812 173 142 c 4xd0
- 172 106 169.634765625 53 204 53 c 4
- 226 53 242 68 262 125 c 5
- 288 117 l 5
-83 556 m 1
- 109 556 l 1
- 197 642 l 2
- 213 656 216 686 197 699 c 0
- 172 718 142 705 133 688 c 2
- 83 556 l 1
+288 117 m 1
+ 252 -6 188.989257812 -13.5791015625 181 -14 c 0
+ 105 -18 86.7646484375 36.39453125 90 211 c 0
+ 91.3154296875 282.015625 99 419 94 431 c 0
+ 88.1416015625 445.059570312 69 453 46 453 c 1
+ 46 482 l 1
+ 58 478 146 474 187 488 c 1
+ 181 420 175.999023438 249.958007812 173 142 c 0xd0
+ 172 106 169.634765625 53 204 53 c 0
+ 226 53 242 68 262 125 c 1
+ 288 117 l 1
+83 556 m 5
+ 109 556 l 5
+ 197 642 l 6
+ 213 656 216 686 197 699 c 4
+ 172 718 142 705 133 688 c 6
+ 83 556 l 5
 EndSplineSet
 Kerns2: 170 -40 "'kern' Horizontal Kerning lookup i subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Iacutesmall
@@ -7055,7 +7056,7 @@ SplineSet
 288 117 m 1
  252 -6 188.989257812 -13.5791015625 181 -14 c 0
  105 -18 86.7646484375 36.39453125 90 211 c 0
- 91.3154296875 282.015625 99 419 94 431 c 0
+ 91.3154296875 282.015625 99 419 94 431 c 4
  88.1416015625 445.059570312 69 453 46 453 c 1
  46 482 l 1
  58 478 146 474 187 488 c 1
@@ -7063,12 +7064,12 @@ SplineSet
  172 106 169.634765625 53 204 53 c 0
  226 53 242 68 262 125 c 1
  288 117 l 1
-163 558 m 5
- 137 558 l 5
- 49 644 l 6
- 33 658 30 688 49 701 c 4
- 74 720 104 707 113 690 c 6
- 163 558 l 5
+163 556 m 5
+ 137 556 l 5
+ 49 642 l 6
+ 33 656 30 686 49 699 c 4
+ 74 718 104 705 113 688 c 6
+ 163 556 l 5
 EndSplineSet
 Kerns2: 170 -40 "'kern' Horizontal Kerning lookup i subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Igravesmall
@@ -7211,6 +7212,12 @@ VStem: 410 101
 LayerCount: 2
 Fore
 SplineSet
+229 556 m 5
+ 255 556 l 5
+ 343 642 l 6
+ 359 656 362 686 343 699 c 4
+ 318 718 288 705 279 688 c 6
+ 229 556 l 5
 510 236 m 0
  511 117 426 -17 268 -14 c 0
  133 -12 40 98 38 246 c 0
@@ -7221,13 +7228,6 @@ SplineSet
  198 454 149 400 138 291 c 0
  130 206 151 19 282 19 c 0
  336 20 406 57 409 206 c 0
-435 670 m 0
- 435 648 414 637 398 627 c 2
- 265 544 l 1
- 229 544 l 1
- 356 672 l 2
- 370 685 390 702 405 702 c 0
- 424 702 435 688 435 670 c 0
 EndSplineSet
 Kerns2: 168 20 "'kern' Horizontal Kerning lookup o subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Oacutesmall
@@ -7246,12 +7246,12 @@ VStem: 410 101
 LayerCount: 2
 Fore
 SplineSet
-323 558 m 5
- 297 558 l 5
- 209 644 l 6
- 193 658 190 688 209 701 c 4
- 234 720 264 707 273 690 c 6
- 323 558 l 5
+318 556 m 5
+ 292 556 l 5
+ 204 642 l 6
+ 188 656 185 686 204 699 c 4
+ 229 718 259 705 268 688 c 6
+ 318 556 l 5
 510 236 m 0
  511 117 426 -17 268 -14 c 0
  133 -12 40 98 38 246 c 0
@@ -7392,6 +7392,12 @@ VStem: 90 79 371 77 371 90
 LayerCount: 2
 Fore
 SplineSet
+240 556 m 5
+ 266 556 l 5
+ 354 642 l 6
+ 370 656 373 686 354 699 c 4
+ 329 718 299 705 290 688 c 6
+ 240 556 l 5
 574 129 m 1
  530 -4 467 -14 451 -14 c 0
  432 -14 400 -12 386 16 c 0
@@ -7411,13 +7417,6 @@ SplineSet
  444 108 432.997437463 54.1199487493 477 55 c 0
  527 56 545 126 550 141 c 1
  574 129 l 1
-461 664 m 0xe8
- 461 642 440 631 424 621 c 2
- 291 538 l 1
- 255 538 l 1
- 382 666 l 2
- 396 679 416 696 431 696 c 0
- 450 696 461 682 461 664 c 0xe8
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Uacutesmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Uacutesmall
@@ -7429,18 +7428,18 @@ StartChar: ugrave
 Encoding: 249 249 224
 Width: 587
 GlyphClass: 1
-Flags: HMWO
+Flags: HMW
 HStem: -12 21G<440.5 458>
 VStem: 90 79 371 77
 LayerCount: 2
 Fore
 SplineSet
-309 558 m 5
- 283 558 l 5
- 195 644 l 6
- 179 658 176 688 195 701 c 4
- 220 720 250 707 259 690 c 6
- 309 558 l 5
+324 556 m 5
+ 298 556 l 5
+ 210 642 l 6
+ 194 656 191 686 210 699 c 4
+ 235 718 265 705 274 688 c 6
+ 324 556 l 5
 574 129 m 1
  530 -4 467 -14 451 -14 c 0
  432 -14 400 -12 386 16 c 0
