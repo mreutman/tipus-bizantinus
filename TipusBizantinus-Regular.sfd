@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1176642634
-ModificationTime: 1792030429
+ModificationTime: 1792112373
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -93,7 +93,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 14
+WinInfo: 38 38 14
 BeginPrivate: 7
 BlueValues 23 [-15 0 486 486 697 710]
 OtherBlues 11 [-244 -244]
@@ -5323,31 +5323,31 @@ EndChar
 
 StartChar: f
 Encoding: 102 102 170
-Width: 329
+Width: 356
 GlyphClass: 1
-Flags: HMW
-HStem: 0 21G<90 169 90 90> 413 35<0 90 0 90 169 169 169 303> 686 20G<176 285.5>
-VStem: 90 77<0 577 413 577 448 479>
+Flags: HMWO
+HStem: 0 21G<120 199 120 120> 413 35<30 120 30 120 199 199 199 333> 686 20G<206 315.5>
+VStem: 120 77<0 577 413 577 448 479>
 LayerCount: 2
 Fore
 SplineSet
-164 0 m 1
- 141 7 108 7 85 0 c 1
- 85 0 84 445 85 444 c 1
- 0 444 l 1
- 0 482 l 1
- 85 482 l 1
- 86 624 74 710 221 710 c 0
- 242 710 270 702 286 693 c 0
- 320 674 337 627 302 605 c 0
- 276 588 252 597 241 599 c 1
- 245 625 236 679 196 671 c 0
- 165.038085938 664.807617188 162 647 162 577 c 2
- 162 482 l 1
- 303 482 l 1
- 303 444 l 1
- 164 444 l 1
- 164 445 164 4 164 0 c 1
+198 0 m 1
+ 175 7 134 7 111 0 c 5
+ 113.860655891 21.116884417 116 413 115 444 c 5
+ 30 444 l 1
+ 30 482 l 1
+ 115 482 l 1
+ 116 624 104 710 251 710 c 0
+ 272 710 300 702 316 693 c 0
+ 350 674 367 627 332 605 c 0
+ 306 588 282 597 271 599 c 1
+ 275 625 266 679 226 671 c 0
+ 195.038085938 664.807617188 192 647 192 577 c 2
+ 192 482 l 1
+ 333 482 l 1
+ 333 444 l 1
+ 194 444 l 1
+ 193 413 195.382682304 21.1063982486 198 0 c 1
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Fsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Fsmall
@@ -5787,7 +5787,7 @@ StartChar: s
 Encoding: 115 115 183
 Width: 438
 GlyphClass: 1
-Flags: HMWO
+Flags: HMW
 HStem: -13 27 -8 21G<67 88 67 67> 454 30<240 240>
 VStem: 51 79 323 73<76 103>
 LayerCount: 2
