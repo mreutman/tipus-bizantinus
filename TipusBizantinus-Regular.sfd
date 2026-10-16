@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1176642634
-ModificationTime: 1792175690
+ModificationTime: 1792178319
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -5904,26 +5904,26 @@ EndChar
 
 StartChar: v
 Encoding: 118 118 186
-Width: 456
+Width: 496
 GlyphClass: 1
 Flags: HMW
 HStem: -1 21G
 LayerCount: 2
 Fore
 SplineSet
-442 418 m 0
- 448 367 399.204101562 293.481445312 352 201 c 0
- 303 105 259 22 248 -1 c 1
- 237 5 194 2 184 0 c 1
- 184 0 68 360 35 414 c 0
- 12 450 -13 448 -37 448 c 1
- -37 476 l 1
- -25 473 72 472 114 484 c 1
- 129 415 197 196 241 54 c 1
- 273 120 334 272 345 379 c 0
- 351 434 313 461 314 461 c 0
- 315 461 338 479 369 484 c 0
- 375 485 433 488 442 418 c 0
+465 418 m 0
+ 471 367 422.204101562 293.481445312 375 201 c 0
+ 326 105 282 22 271 -1 c 1
+ 260 5 217 2 207 0 c 1
+ 207 0 91 360 58 414 c 0
+ 35 450 10 448 -14 448 c 1
+ -14 476 l 1
+ -2 473 95 472 137 484 c 1
+ 152 415 220 196 264 54 c 1
+ 296 120 357 272 368 379 c 0
+ 374 434 336 461 337 461 c 0
+ 338 461 361 479 392 484 c 0
+ 398 485 456 488 465 418 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Vsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Vsmall
@@ -6562,6 +6562,12 @@ VStem: 41 90 344 78
 LayerCount: 2
 Fore
 SplineSet
+307 558 m 5
+ 281 558 l 5
+ 193 644 l 6
+ 177 658 174 688 193 701 c 4
+ 218 720 248 707 257 690 c 6
+ 307 558 l 5
 518 90 m 1xd8
  506 26 469.916015625 -10.7001953125 429 -14 c 0
  367 -19 345 12 344 70 c 1
@@ -6587,12 +6593,6 @@ SplineSet
  127 79 162 55 201 52 c 0
  233 49 319 73 343 102 c 1
  343 283 l 1
-291 542 m 1
- 267 542 l 1
- 127 678 l 2
- 112 693 110 723 128 737 c 0
- 154 755 183 742 192 725 c 2
- 291 542 l 1
 EndSplineSet
 Kerns2: 170 -30 "'kern' Horizontal Kerning lookup a subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Agravesmall
@@ -6901,25 +6901,25 @@ VStem: 40 72
 LayerCount: 2
 Fore
 SplineSet
-455 162 m 5
- 445 129 384 -12 234 -12 c 4
- 118 -12 37 72 38 221 c 4
- 40 414 163 484 247 484 c 4
- 346 484 422 424 433 287 c 5
- 110 287 l 5
- 114 101 207 59 276 59 c 4
- 369 59 414 130 438 169 c 5
- 455 162 l 5
-327 320 m 5
- 319 371 309 441 226 441 c 4
- 169 441 130 412 113 320 c 5
- 327 320 l 5
-299 540 m 1
- 275 540 l 1
- 135 676 l 2
- 120 691 118 721 136 735 c 0
- 162 753 191 740 200 723 c 2
- 299 540 l 1
+299 558 m 5
+ 273 558 l 5
+ 185 644 l 6
+ 169 658 166 688 185 701 c 4
+ 210 720 240 707 249 690 c 6
+ 299 558 l 5
+455 162 m 1
+ 445 129 384 -12 234 -12 c 0
+ 118 -12 37 72 38 221 c 0
+ 40 414 163 484 247 484 c 0
+ 346 484 422 424 433 287 c 1
+ 110 287 l 1
+ 114 101 207 59 276 59 c 0
+ 369 59 414 130 438 169 c 1
+ 455 162 l 1
+327 320 m 1
+ 319 371 309 441 226 441 c 0
+ 169 441 130 412 113 320 c 1
+ 327 320 l 1
 EndSplineSet
 Kerns2: 168 20 "'kern' Horizontal Kerning lookup e subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Egravesmall
@@ -7063,12 +7063,12 @@ SplineSet
  172 106 169.634765625 53 204 53 c 0
  226 53 242 68 262 125 c 1
  288 117 l 1
-163 558 m 1
- 137 558 l 1
- 49 644 l 2
- 33 658 30 688 49 701 c 0
- 74 720 104 707 113 690 c 2
- 163 558 l 1
+163 558 m 5
+ 137 558 l 5
+ 49 644 l 6
+ 33 658 30 688 49 701 c 4
+ 74 720 104 707 113 690 c 6
+ 163 558 l 5
 EndSplineSet
 Kerns2: 170 -40 "'kern' Horizontal Kerning lookup i subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Igravesmall
@@ -7246,6 +7246,12 @@ VStem: 410 101
 LayerCount: 2
 Fore
 SplineSet
+323 558 m 5
+ 297 558 l 5
+ 209 644 l 6
+ 193 658 190 688 209 701 c 4
+ 234 720 264 707 273 690 c 6
+ 323 558 l 5
 510 236 m 0
  511 117 426 -17 268 -14 c 0
  133 -12 40 98 38 246 c 0
@@ -7256,12 +7262,6 @@ SplineSet
  198 454 149 400 138 291 c 0
  130 206 151 19 282 19 c 0
  336 20 406 57 409 206 c 0
-278 545 m 1
- 254 545 l 1
- 114 681 l 2
- 99 696 97 726 115 740 c 0
- 141 758 170 745 179 728 c 2
- 278 545 l 1
 EndSplineSet
 Kerns2: 168 20 "'kern' Horizontal Kerning lookup o subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Ogravesmall
@@ -7429,12 +7429,18 @@ StartChar: ugrave
 Encoding: 249 249 224
 Width: 587
 GlyphClass: 1
-Flags: HMW
+Flags: HMWO
 HStem: -12 21G<440.5 458>
 VStem: 90 79 371 77
 LayerCount: 2
 Fore
 SplineSet
+309 558 m 5
+ 283 558 l 5
+ 195 644 l 6
+ 179 658 176 688 195 701 c 4
+ 220 720 250 707 259 690 c 6
+ 309 558 l 5
 574 129 m 1
  530 -4 467 -14 451 -14 c 0
  432 -14 400 -12 386 16 c 0
@@ -7454,12 +7460,6 @@ SplineSet
  444 108 432.997437463 54.1199487493 477 55 c 0
  527 56 545 126 550 141 c 1
  574 129 l 1
-295 544 m 1
- 271 544 l 1
- 131 680 l 2
- 116 695 114 725 132 739 c 0
- 158 757 187 744 196 727 c 2
- 295 544 l 1
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Ugravesmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Ugravesmall
