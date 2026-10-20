@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1176642634
-ModificationTime: 1792460730
+ModificationTime: 1792524476
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -81,12 +81,10 @@ Lookup: 1 0 0 "'dnom' Denominators in Latin lookup 20" { "'dnom' Denominators in
 Lookup: 1 0 0 "'dnom' Denominators in Greek lookup 21" { "'dnom' Denominators in Greek lookup 21 subtable"  } ['dnom' ('grek' <'dflt' > ) ]
 Lookup: 1 0 0 "'hist' Historical Forms in Latin lookup 23" { "'hist' Historical Forms in Latin lookup 23 subtable"  } ['hist' ('latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'hist' Historical Forms in Greek lookup 24" { "'hist' Historical Forms in Greek lookup 24 subtable"  } ['hist' ('grek' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup e" { "'kern' Horizontal Kerning lookup e subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup r" { "'kern' Horizontal Kerning lookup r subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup a" { "'kern' Horizontal Kerning lookup a subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup i" { "'kern' Horizontal Kerning lookup i subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup o" { "'kern' Horizontal Kerning lookup o subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup f" { "'kern' Horizontal Kerning lookup f subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup r" { "'kern' Horizontal Kerning lookup r subtable" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -97,7 +95,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 38 14
+WinInfo: 38 38 14
 BeginPrivate: 7
 BlueValues 23 [-15 0 486 486 697 710]
 OtherBlues 11 [-244 -244]
@@ -5158,7 +5156,7 @@ EndChar
 
 StartChar: a
 Encoding: 97 97 165
-Width: 511
+Width: 501
 GlyphClass: 1
 Flags: HMW
 HStem: -14 63 322 162 452 32
@@ -5166,25 +5164,25 @@ VStem: 39 90 342 78
 LayerCount: 2
 Fore
 SplineSet
-516 90 m 1xd8
- 504 26 464.916015625 -10.7001953125 427 -14 c 0
+516 90 m 5xd8
+ 502 26 464.916015625 -10.7001953125 427 -14 c 0
  365.032943524 -19.3929501837 343 12 342 70 c 1
  297 25 211 -14 156 -14 c 0
  102 -14 40 15 39 100 c 0
  37 204 113 269 341 308 c 1
  333 371 l 2
- 334 428 285 452 235 452 c 0xb8
+ 334 428 285 452 235 452 c 4xb8
  184 452 154 430 152 399 c 0
  148 366 168 365 176 355 c 1
  168 340 140 320 107 322 c 0
  65 324 47 375 64 411 c 0
  78 441 125 483 233 484 c 0
- 299 485 342 472 375 439 c 0
+ 299 485 342 472 375 439 c 4
  418 396 421 317 421 317 c 1
  420 196 l 2
  420 124 413.046875 46.2353515625 446 48 c 0
  481.379882812 49.8955078125 487.194622808 90 489 99 c 1
- 516 90 l 1xd8
+ 516 90 l 5xd8
 341 283 m 1
  161 237 132 171 129 136 c 2
  129 134 l 1
@@ -5235,7 +5233,7 @@ EndChar
 
 StartChar: c
 Encoding: 99 99 167
-Width: 462
+Width: 466
 GlyphClass: 1
 Flags: HMW
 HStem: -10 76<229.5 271> 327 155 450 32
@@ -5265,34 +5263,34 @@ EndChar
 
 StartChar: d
 Encoding: 100 100 168
-Width: 538
+Width: 522
 GlyphClass: 1
 Flags: HMW
-HStem: 451 30<228.5 277.5 196.5 282.5> 690 20G
-VStem: 39 90<180.5 291.5> 364 92
+HStem: 451 30<222.5 271.5 190.5 276.5> 690 20G
+VStem: 33 90<180.5 291.5> 358 92
 LayerCount: 2
 Fore
 SplineSet
-538 94 m 1
- 520.130859375 32 483.892741092 -12.8142469821 441 -15 c 0
- 393.958349827 -17.3971755177 371 24 372 80 c 1
- 347 29 307 -14 229 -13 c 0
- 188 -12 39 10 39 223 c 0
- 39 360 131 485 248 485 c 0
- 293 485 329 464 364 418 c 1
- 369 490 366 637 358 658 c 0
- 352 672 338 676 314 676 c 1
- 314 705 l 1
- 328 701 413 697 455 710 c 1
- 440.038216561 555 438.46010502 129 441 90 c 0
- 441.847310512 76.9895762463 445.002470678 49.6147811246 464 50 c 0
- 501.46875 50.759765625 507.666992188 101 510 108 c 1
- 538 94 l 1
-358 327 m 4
- 354.1171875 391.024414062 300 447 251 447 c 0
- 192 447 129 400 129 258 c 0
- 129 103 218 31.802734375 271 46 c 4
- 327 61 370.857421875 115 358 327 c 4
+532 94 m 1
+ 514.130859375 32 477.892578125 -12.814453125 435 -15 c 0
+ 387.958007812 -17.3974609375 365 24 366 80 c 1
+ 341 29 301 -14 223 -13 c 0
+ 182 -12 33 10 33 223 c 0
+ 33 360 125 485 242 485 c 0
+ 287 485 323 464 358 418 c 1
+ 363 490 360 637 352 658 c 0
+ 346 672 332 676 308 676 c 1
+ 308 705 l 1
+ 322 701 407 697 449 710 c 1
+ 434.038085938 555 432.459960938 129 435 90 c 0
+ 435.84765625 76.9892578125 439.002929688 49.615234375 458 50 c 0
+ 495.46875 50.759765625 501.666992188 101 504 108 c 1
+ 532 94 l 1
+352 327 m 0
+ 348.1171875 391.024414062 294 447 245 447 c 0
+ 186 447 123 400 123 258 c 0
+ 123 103 212 31.802734375 265 46 c 0
+ 321 61 364.857421875 115 352 327 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Dsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Dsmall
@@ -5302,7 +5300,7 @@ EndChar
 
 StartChar: e
 Encoding: 101 101 169
-Width: 474
+Width: 478
 GlyphClass: 1
 Flags: HMW
 HStem: -12 71<236.5 304> 287 33<108 324 108 430 105 324> 441 38<204 264.5>
@@ -5324,7 +5322,6 @@ SplineSet
  169 447 125 412 108 320 c 1
  337 320 l 1
 EndSplineSet
-Kerns2: 168 20 "'kern' Horizontal Kerning lookup e subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Esmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Esmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Esmall
@@ -5333,31 +5330,31 @@ EndChar
 
 StartChar: f
 Encoding: 102 102 170
-Width: 360
+Width: 340
 GlyphClass: 1
-Flags: HMW
-HStem: 0 21G<120 199 120 120> 413 35<30 120 30 120 199 199 199 333> 686 20G<206 315.5>
-VStem: 120 77<0 577 413 577 448 479>
+Flags: HMWO
+HStem: 0 21G<110 189 110 110> 413 35<20 110 20 110 189 189 189 323> 686 20G<196 305.5>
+VStem: 110 77<0 577 413 577 448 479>
 LayerCount: 2
 Fore
 SplineSet
-198 0 m 1
- 175 7 134 7 111 0 c 1
- 113.860655891 21.116884417 116 413 115 444 c 1
- 30 444 l 1
- 30 482 l 1
- 115 485 l 5
- 116 627 104 710 251 710 c 0
- 272 710 300 702 316 693 c 0
- 350 674 367 627 332 605 c 0
- 306 588 282 597 271 599 c 1
- 275 625 266 679 226 671 c 0
- 195.038085938 664.807617188 192 647 192 577 c 2
- 192 485 l 1
- 333 482 l 1
- 333 444 l 1
- 194 444 l 1
- 193 413 195.382682304 21.1063982486 198 0 c 1
+193 0 m 1
+ 170 7 124 7 101 0 c 1
+ 103.860351562 21.1171875 106 243 105 434 c 1
+ 90 447 54 452 20 453 c 1
+ 20 477 l 1
+ 105 482 l 1
+ 106 624 94 708 241 710 c 4
+ 261.998056635 710.285687845 290 702 306 693 c 0
+ 340 674 350 621 322 603 c 0
+ 295.869140625 586.202148438 272 595 261 597 c 1
+ 265 623 251 676 216 669 c 0
+ 186.9609375 663.192382812 182 634 182 577 c 2
+ 182 482 l 1
+ 323 482 l 1
+ 323 445 l 1
+ 184 445 l 1
+ 183 234 190.3828125 21.1064453125 193 0 c 1
 EndSplineSet
 Kerns2: 173 15 "'kern' Horizontal Kerning lookup f subtable" 213 15 "'kern' Horizontal Kerning lookup f subtable" 214 15 "'kern' Horizontal Kerning lookup f subtable" 215 15 "'kern' Horizontal Kerning lookup f subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Fsmall
@@ -5684,7 +5681,6 @@ SplineSet
  125 202 146.075195312 25.4384765625 277 21 c 0
  336 19 403.965820312 67.9736328125 406 215 c 0
 EndSplineSet
-Kerns2: 168 20 "'kern' Horizontal Kerning lookup o subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Osmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Osmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Osmall
@@ -5768,7 +5764,7 @@ StartChar: r
 Encoding: 114 114 182
 Width: 370
 GlyphClass: 1
-Flags: HMWO
+Flags: HMW
 HStem: -1 21G<65 157>
 LayerCount: 2
 Fore
@@ -5789,7 +5785,7 @@ SplineSet
  229 451 254 477 299 484 c 0
  344 489 371 445 352 398 c 0
 EndSplineSet
-Kerns2: 184 47 "'kern' Horizontal Kerning lookup r subtable" 186 67 "'kern' Horizontal Kerning lookup r subtable"
+Kerns2: 186 35 "'kern' Horizontal Kerning lookup r subtable" 186 15 "'kern' Horizontal Kerning lookup a subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Rsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Rsmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Rsmall
@@ -5910,26 +5906,26 @@ EndChar
 
 StartChar: v
 Encoding: 118 118 186
-Width: 496
+Width: 468
 GlyphClass: 1
 Flags: HMW
 HStem: -1 21G
 LayerCount: 2
 Fore
 SplineSet
-465 418 m 0
- 471 367 422.204101562 293.481445312 375 201 c 0
- 326 105 282 22 271 -1 c 1
- 260 5 217 2 207 0 c 1
- 207 0 91 360 58 414 c 0
- 35 450 10 448 -14 448 c 1
- -14 476 l 1
- -2 473 95 472 137 484 c 1
- 152 415 220 196 264 54 c 1
- 296 120 357 272 368 379 c 0
- 374 434 336 461 337 461 c 0
- 338 461 361 479 392 484 c 0
- 398 485 456 488 465 418 c 0
+455 418 m 0
+ 461 367 412.204101562 293.481445312 365 201 c 0
+ 316 105 272 22 261 -1 c 1
+ 250 5 207 2 197 0 c 1
+ 197 0 81 360 48 414 c 0
+ 25 450 0 448 -24 448 c 1
+ -24 476 l 1
+ -12 473 85 472 127 484 c 1
+ 142 415 210 196 254 54 c 1
+ 286 120 347 272 358 379 c 0
+ 364 434 326 461 327 461 c 0
+ 328 461 351 479 382 484 c 0
+ 388 485 446 488 455 418 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Vsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Vsmall
@@ -5976,38 +5972,38 @@ EndChar
 
 StartChar: x
 Encoding: 120 120 188
-Width: 504
+Width: 501
 GlyphClass: 1
 Flags: HMW
-HStem: 0 21G<4 88 4 4 500 500> 463 20G<165 166 400 400.5>
+HStem: 0 21G<1 85 1 1 497 497> 463 20G<162 163 397 397.5>
 LayerCount: 2
 Fore
 SplineSet
-500 0 m 1
- 476 3 392 10 347 1 c 1
- 343 13 332 31 310 68 c 2
- 234 207 l 1
- 234 206 157 95 134 64 c 0
- 124 49 88 0 88 0 c 1
- 55 6 16 3 4 0 c 1
- 4 29 l 1
- 20 29 45 29 72 63 c 0
- 117 119 181 193 213 239 c 1
- 98 413 l 2
- 74 448 47 447 22 447 c 1
- 23 477 l 1
- 35 474 120 474 166 483 c 1
- 168.047902969 478.236158141 193.929370431 434.10039716 203 419 c 0
- 219.160910974 392.096004823 265 310 268 307 c 0
- 267 305 339.203009826 399.998708418 354 419 c 0
- 367.23851229 435.999999945 399 482 400 483 c 5
- 430 472 463 474 475 477 c 1
- 474 447 l 1
- 449 447 423 429 408 413 c 2
- 286 278 l 2
- 286 277 383 128 414 78 c 0
- 437 42 476 29 500 29 c 1
- 500 0 l 1
+497 0 m 1
+ 473 3 389 10 344 1 c 1
+ 340 13 329 31 307 68 c 2
+ 231 207 l 1
+ 231 206 154 95 131 64 c 0
+ 121 49 85 0 85 0 c 1
+ 52 6 22 3 10 0 c 1
+ 10 29 l 1
+ 26 29 42 29 69 63 c 0
+ 114 119 178 193 210 239 c 1
+ 95 413 l 2
+ 71 448 34 451 9 451 c 1
+ 10 481 l 1
+ 22 478 117 474 163 483 c 1
+ 165.047851562 478.236328125 190.9296875 434.100585938 200 419 c 0
+ 216.161132812 392.095703125 262 310 265 307 c 0
+ 264 305 336.203125 399.999023438 351 419 c 0
+ 364.23828125 436 396 482 397 483 c 1
+ 414 478 464 481 472 483 c 1
+ 471 453 l 1
+ 446 453 420 429 405 413 c 2
+ 283 278 l 2
+ 283 277 380 128 411 78 c 0
+ 434 42 473 29 497 29 c 1
+ 497 0 l 1
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Xsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Xsmall
@@ -6051,7 +6047,7 @@ EndChar
 
 StartChar: z
 Encoding: 122 122 190
-Width: 453
+Width: 437
 GlyphClass: 1
 Flags: HMW
 HStem: 0 31<127 271 271 326.5> 439 31<111 149 149 293>
@@ -6064,9 +6060,9 @@ SplineSet
  15 19 l 1
  293 439 l 1
  149 439 l 2
- 73 439 69 404 61 347 c 1
- 39 347 l 1
- 45 474 l 1
+ 73 439 59 404 51 347 c 1
+ 29 347 l 1
+ 35 474 l 1
  408 474 l 1
  408 455 l 1
  127 35 l 1
@@ -6887,7 +6883,6 @@ SplineSet
  299 718 269 705 260 688 c 6
  210 556 l 5
 EndSplineSet
-Kerns2: 168 20 "'kern' Horizontal Kerning lookup e subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Eacutesmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Eacutesmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Eacutesmall
@@ -6924,7 +6919,6 @@ SplineSet
  213 718 243 705 252 688 c 6
  302 556 l 5
 EndSplineSet
-Kerns2: 168 20 "'kern' Horizontal Kerning lookup e subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Egravesmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Egravesmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Egravesmall
@@ -6963,7 +6957,6 @@ SplineSet
  248.278320312 708.138671875 268 708 285 698 c 4
  287.725585938 696.396484375 389 556 389 556 c 5
 EndSplineSet
-Kerns2: 168 20 "'kern' Horizontal Kerning lookup e subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Ecircumflexsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Ecircumflexsmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Ecircumflexsmall
@@ -7231,7 +7224,6 @@ SplineSet
  326 718 296 705 287 688 c 6
  237 556 l 5
 EndSplineSet
-Kerns2: 168 20 "'kern' Horizontal Kerning lookup o subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Oacutesmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Oacutesmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Oacutesmall
@@ -7265,7 +7257,6 @@ SplineSet
  260 718 290 705 299 688 c 6
  349 556 l 5
 EndSplineSet
-Kerns2: 168 20 "'kern' Horizontal Kerning lookup o subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Ogravesmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Ogravesmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Ogravesmall
@@ -7301,7 +7292,6 @@ SplineSet
  285.278320312 708.138671875 305 708 322 698 c 0
  324.725585938 696.396484375 426 556 426 556 c 1
 EndSplineSet
-Kerns2: 168 20 "'kern' Horizontal Kerning lookup o subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Ocircumflexsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Ocircumflexsmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Ocircumflexsmall
