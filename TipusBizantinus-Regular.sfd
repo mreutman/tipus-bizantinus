@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1176642634
-ModificationTime: 1792610267
+ModificationTime: 1792612319
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -18318,7 +18318,7 @@ StartChar: zeta
 Encoding: 950 950 482
 Width: 436
 GlyphClass: 1
-Flags: MW
+Flags: HMW
 HStem: -230 69<273 280>
 LayerCount: 2
 Fore
@@ -18333,10 +18333,10 @@ SplineSet
  233 6 79 14 71 175 c 0
  63 343 208 438 270 460 c 1
  270 460 207 460 145 484 c 0
- 114 495 85 522 67 549 c 0
- 44 584 29 657 71 688 c 0
- 92 702 163 704 158 620 c 1
- 117 627 90 581 100 561 c 0
+ 114 495 85 522 67 549 c 4
+ 44 584 29 657 71 688 c 4
+ 92 702 163 704 158 620 c 5
+ 117 627 90 581 100 561 c 4
  112 537 152 517 241 518 c 0
  295 519 394 535 394 535 c 1
  394 445 l 1
@@ -18345,7 +18345,6 @@ SplineSet
  234 67 259 81 345 39 c 0
  409 8 416 -45 408 -99 c 0
 EndSplineSet
-Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" uniF505
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" uniF505
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" uniF505
@@ -19237,7 +19236,7 @@ StartChar: Cdotaccent
 Encoding: 266 266 506
 Width: 714
 GlyphClass: 1
-Flags: HMWO
+Flags: HMW
 HStem: -14 45<357.5 487 357.5 490.5> 665 42<384.5 447.5 311.5 475> 729 104<392 406>
 VStem: 46 121<233.5 419 233.5 463>
 LayerCount: 2
@@ -19268,6 +19267,7 @@ SplineSet
  413 870 426 865 436 855 c 4
  446 845 450 832 450 818 c 4
 EndSplineSet
+Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" uniF674
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uniF674
 EndChar
@@ -19301,6 +19301,7 @@ SplineSet
  209 658.5 230.599609375 680.099609375 257 680.099609375 c 0
  282.599609375 680.099609375 305 658.5 305 632.099609375 c 0xe0
 EndSplineSet
+Validated: 8912929
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" uniF674
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" uniF674
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" uniF674
@@ -19515,16 +19516,17 @@ SplineSet
  492 368 606 365 619 365 c 0
  633 365 737 368 749 372 c 1
  749 344 l 1
-468 818 m 4
- 468 803 462 790 453 781 c 4
- 442 770 430 766 416 766 c 4
- 402 766 389 770 379 781 c 4
- 368 790 364 803 364 818 c 4
- 364 832 368 844 379 855 c 4
- 389 864 402 870 416 870 c 4
- 430 870 442 864 453 855 c 4
- 462 844 468 832 468 818 c 4
+468 818 m 0
+ 468 803 462 790 453 781 c 0
+ 442 770 430 766 416 766 c 0
+ 402 766 389 770 379 781 c 0
+ 368 790 364 803 364 818 c 0
+ 364 832 368 844 379 855 c 0
+ 389 864 402 870 416 870 c 0
+ 430 870 442 864 453 855 c 0
+ 462 844 468 832 468 818 c 0
 EndSplineSet
+Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" uniF680
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uniF680
 EndChar
@@ -19575,6 +19577,7 @@ SplineSet
  187 658.5 208.599609375 680.099609375 235 680.099609375 c 4
  260.599609375 680.099609375 283 658.5 283 632.099609375 c 4xe0
 EndSplineSet
+Validated: 8912929
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" uniF680
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" uniF680
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" uniF680
