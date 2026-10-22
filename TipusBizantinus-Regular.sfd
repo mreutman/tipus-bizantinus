@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1176642634
-ModificationTime: 1792632994
+ModificationTime: 1792698519
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -96,7 +96,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 684 38 14
+WinInfo: 38 38 14
 BeginPrivate: 7
 BlueValues 23 [-15 0 486 486 697 710]
 OtherBlues 11 [-244 -244]
@@ -2561,6 +2561,7 @@ SplineSet
  576 225 485.003089193 119.944616066 360 113 c 0
  342 112 258.02734375 111 238.02734375 111 c 1
 EndSplineSet
+Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Thornsmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" Thornsmall
 EndChar
@@ -5326,7 +5327,7 @@ EndChar
 
 StartChar: a
 Encoding: 97 97 165
-Width: 501
+Width: 506
 GlyphClass: 1
 Flags: HMW
 HStem: -14 63 322 162 452 32
@@ -5334,33 +5335,32 @@ VStem: 39 90 342 78
 LayerCount: 2
 Fore
 SplineSet
-516 90 m 5xd8
- 502 26 464.916015625 -10.7001953125 427 -14 c 4
- 365.032943524 -19.3929501837 343 12 342 70 c 5
- 297 25 211 -14 156 -14 c 4
- 102 -14 40 15 39 100 c 4
- 37 204 113 269 341 308 c 5
- 333 371 l 6
- 334 428 285 452 235 452 c 4xb8
- 184 452 154 430 152 399 c 4
- 148 366 168 365 176 355 c 5
- 168 340 140 320 107 322 c 4
- 65 324 47 375 64 411 c 4
- 78 441 125 483 233 484 c 4
- 299 485 342 472 375 439 c 4
- 418 396 421 317 421 317 c 5
- 420 196 l 6
- 420 124 413.046875 46.2353515625 446 48 c 4
- 481.379882812 49.8955078125 487.194622808 90 489 99 c 5
- 516 90 l 5xd8
-341 283 m 5
- 161 237 132 171 129 136 c 6
- 129 134 l 5
- 125 79 160 55 199 52 c 4
- 231 49 317 73 341 102 c 5
- 341 283 l 5
+516 90 m 1xd8
+ 502 26 464.916015625 -10.7001953125 427 -14 c 0
+ 365.032943524 -19.3929501837 343 12 342 70 c 1
+ 297 25 211 -14 156 -14 c 0
+ 102 -14 40 15 39 100 c 0
+ 37 204 113 269 341 308 c 1
+ 333 371 l 2
+ 334 428 285 452 235 452 c 0xb8
+ 184 452 154 430 152 399 c 0
+ 148 366 168 365 176 355 c 1
+ 168 340 140 320 107 322 c 0
+ 65 324 47 375 64 411 c 0
+ 78 441 125 483 233 484 c 0
+ 299 485 342 472 375 439 c 0
+ 418 396 421 317 421 317 c 1
+ 420 196 l 2
+ 420 124 413.046875 46.2353515625 446 48 c 0
+ 481.379882812 49.8955078125 487.194622808 90 489 99 c 1
+ 516 90 l 1xd8
+341 283 m 1
+ 161 237 132 171 129 136 c 2
+ 129 134 l 1
+ 125 79 160 55 199 52 c 0
+ 231 49 317 73 341 102 c 1
+ 341 283 l 1
 EndSplineSet
-Validated: 33
 Kerns2: 170 -30 "'kern' Horizontal Kerning lookup a subtable"
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Asmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Asmall
@@ -5413,19 +5413,19 @@ VStem: 33 81<204.5 308.5>
 LayerCount: 2
 Fore
 SplineSet
-438 154 m 1xb0
- 381 35 313 -10 229 -10 c 0
- 145 -10 33 58 33 223 c 0
- 33 394 154 491 267 490 c 0
- 364 489 393 446 406 419 c 0
- 423 385 414 329 371 327 c 0xd0
- 340 326 324 346 315 352 c 1
- 324 363 337 379 330 407 c 0
- 323 436 286 454 248 450 c 0
- 210 447 114 419 114 265 c 0
- 114 144 186 66 273 66 c 0
- 348 66 387 110 422 163 c 1
- 438 154 l 1xb0
+438 154 m 5xb0
+ 381 35 313 -10 229 -10 c 4
+ 145 -10 33 58 33 223 c 4
+ 33 394 154 491 267 490 c 4
+ 364 489 393 446 406 419 c 4
+ 423 385 414 329 371 327 c 4xd0
+ 340 326 324 346 315 352 c 5
+ 324 363 337 379 330 407 c 4
+ 323 436 286 454 248 450 c 4
+ 210 447 114 419 114 265 c 4
+ 114 144 186 66 273 66 c 4
+ 348 66 387 110 422 163 c 5
+ 438 154 l 5xb0
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Csmall
@@ -5436,7 +5436,7 @@ EndChar
 
 StartChar: d
 Encoding: 100 100 168
-Width: 537
+Width: 532
 GlyphClass: 1
 Flags: HMW
 HStem: 451 30<222.5 271.5 190.5 276.5> 690 20G
@@ -5465,7 +5465,6 @@ SplineSet
  123 103 212 31.802734375 265 46 c 0
  321 61 364.857421875 115 352 327 c 0
 EndSplineSet
-Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Dsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Dsmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Dsmall
@@ -5767,7 +5766,7 @@ EndChar
 
 StartChar: m
 Encoding: 109 109 177
-Width: 788
+Width: 791
 GlyphClass: 1
 Flags: HMW
 VStem: 73 80 341 85 611 79
@@ -5797,11 +5796,10 @@ SplineSet
  407 489 429 448 426 343 c 1
  449 379 525 477 593 483 c 0
  704 492 702 419 690 211 c 0
- 681 68 683 51 706 51 c 4
+ 681 68 683 51 706 51 c 0
  744 51 763 107 767 123 c 1
  793 112 l 1
 EndSplineSet
-Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Msmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Msmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Msmall
@@ -5810,7 +5808,7 @@ EndChar
 
 StartChar: n
 Encoding: 110 110 178
-Width: 539
+Width: 542
 GlyphClass: 1
 Flags: HMW
 VStem: 79 75<210 313> 361 78
@@ -5837,7 +5835,6 @@ SplineSet
  506 -5 454.094726562 -15.22265625 436 -16 c 0
  417 -16.81640625 384 -11 366 15 c 1
 EndSplineSet
-Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Nsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Nsmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Nsmall
@@ -5865,6 +5862,7 @@ SplineSet
  125 202 146.075195312 25.4384765625 277 21 c 0
  336 19 401.447265625 88.083984375 406 211 c 0
 EndSplineSet
+Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Osmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Osmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Osmall
@@ -6241,30 +6239,29 @@ EndChar
 
 StartChar: z
 Encoding: 122 122 190
-Width: 437
+Width: 445
 GlyphClass: 1
-Flags: HMW
-HStem: 0 31<127 271 271 326.5> 439 31<111 149 149 293>
+Flags: HMWO
+HStem: 0 31<131 275 275 330.5> 439 31<115 153 153 297>
 LayerCount: 2
 Fore
 SplineSet
-424 142 m 1
- 409 0 l 1
- 15 0 l 1
- 15 19 l 1
- 293 439 l 1
- 149 439 l 2
- 73 439 59 404 51 347 c 1
- 29 347 l 1
- 35 474 l 1
- 408 474 l 1
- 408 455 l 1
- 127 35 l 1
- 271 35 l 2
- 382 35 388 64 405 145 c 1
- 424 142 l 1
+428 142 m 1
+ 413 0 l 1
+ 19 0 l 1
+ 19 19 l 1
+ 297 439 l 1
+ 153 439 l 2
+ 77 439 63 404 55 347 c 1
+ 33 347 l 1
+ 39 474 l 1
+ 412 474 l 1
+ 412 455 l 1
+ 131 35 l 1
+ 275 35 l 2
+ 386 35 392 64 409 145 c 1
+ 428 142 l 1
 EndSplineSet
-Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Zsmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Zsmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Zsmall
@@ -7024,42 +7021,40 @@ EndChar
 
 StartChar: ccedilla
 Encoding: 231 231 208
-Width: 461
+Width: 466
 GlyphClass: 1
-Flags: MW
+Flags: HMW
 HStem: -207 33<204.5 226.5 202 245.5> -99 33<220.5 276.5> -10 76<222 315.5 248 253 253 253> 327 155 450 32
 VStem: 38 81<204.5 308.5> 264 69<-149.5 -121>
 LayerCount: 2
 Fore
 SplineSet
-443 154 m 1xee
- 389 42 326 -5 248 -10 c 1
- 253 -10 l 1
- 230 -69 l 1
- 238 -67 248 -66 256 -66 c 0
- 297 -66 333 -86 333 -130 c 0
- 333 -190 270 -207 221 -207 c 0
- 188 -207 175 -202 141 -193 c 1
- 155 -164 l 1
- 171 -169 193 -174 211 -174 c 0
- 242 -174 264 -167 264 -132 c 0
- 264 -110 245 -99 227 -99 c 0
- 214 -99 202 -102 190 -105 c 1
- 183 -100 l 1
- 222 -10 l 5
- 140 -4 38 66 38 223 c 0
- 38 394 159 483 272 482 c 0
- 369 481 398 446 411 419 c 0
- 428 385 419 329 376 327 c 0xf6
- 345 326 329 346 320 352 c 1
- 329 363 342 379 335 407 c 0
- 328 436 291 454 253 450 c 0
- 215 447 119 419 119 265 c 0
- 119 144 191 66 278 66 c 0
- 353 66 392 110 427 163 c 1
- 443 154 l 1xee
+212.478170919 -9.14802397763 m 1025xe6
+263.177734375 -7.3037109375 m 1
+ 331.72671351 3.96907380076 388.938111712 51.5725490119 438 154 c 1
+ 422 163 l 1
+ 387 110 348 66 273 66 c 0
+ 186 66 114 144 114 265 c 0
+ 114 419 210 447 248 450 c 0xee
+ 286 454 323 436 330 407 c 0
+ 337 379 324 363 315 352 c 1
+ 324 346 340 326 371 327 c 0xf6
+ 414 329 423 385 406 419 c 0
+ 393 446 364 489 267 490 c 0
+ 154 491 33 394 33 223 c 0
+ 33 68.6146513419 131.053319324 -0.849518973207 212.478515625 -9.1484375 c 1
+ 173 -100 l 1
+ 190 -105 l 1
+ 202 -102 214 -99 227 -99 c 0
+ 245 -99 264 -110 264 -132 c 0
+ 264 -167 232 -174 201 -174 c 0
+ 183 -174 172 -170 156 -163 c 1
+ 141 -196 l 1
+ 173 -205 188 -207 211 -207 c 0
+ 290 -207 343 -180 343 -120 c 4
+ 343 -62 291.0625 -50 249 -47 c 1
+ 263.177734375 -7.3037109375 l 1
 EndSplineSet
-Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Ccedillasmall
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" Ccedillasmall
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" Ccedillasmall
@@ -18345,6 +18340,7 @@ SplineSet
  234 67 259 81 345 39 c 0
  409 8 416 -45 408 -99 c 0
 EndSplineSet
+Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" uniF505
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" uniF505
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" uniF505
@@ -18912,7 +18908,7 @@ StartChar: psi
 Encoding: 968 968 498
 Width: 768
 GlyphClass: 1
-Flags: MWO
+Flags: MW
 HStem: -215 21G -12 23<447 447>
 VStem: 114 90 378 69 378 85
 LayerCount: 2
@@ -18944,6 +18940,7 @@ SplineSet
  631 478 653 486 669 472 c 0
  728 427 739 293 723 210 c 0xf0
 EndSplineSet
+Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" uniF517
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 2 subtable" uniF517
 Substitution2: "'c2sc' Capitals to Small Capitals in Greek lookup 1 subtable" uniF517
