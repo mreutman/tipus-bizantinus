@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1176642634
-ModificationTime: 1792808810
+ModificationTime: 1792810995
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -96,7 +96,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 798 38 14
+WinInfo: 0 38 14
 BeginPrivate: 7
 BlueValues 23 [-15 0 486 486 697 710]
 OtherBlues 11 [-244 -244]
@@ -110,7 +110,7 @@ Grid
 -1000 1305.5 m 0
  2000 1305.5 l 1024
 EndSplineSet
-BeginChars: 65562 982
+BeginChars: 65562 983
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -5182,14 +5182,14 @@ SplineSet
  375 399 387 362 387 310 c 0
  387 197 279 156 220 156 c 0
  208 156 170 161 164 161 c 0
- 143 159 102 116 102 95 c 0xf580
- 102 71 151 68 182 67 c 2
- 317 61 l 2
- 429 55 444 -22 444 -51 c 0
- 444 -169 271 -229 177 -228 c 0
- 60 -227 -9 -181 -9 -126 c 0xf980
- -9 -80 41 -37 94 1 c 1
- 66 14 39 28 39 56 c 0
+ 143 159 102 116 102 95 c 4xf580
+ 102 71 151 68 182 67 c 6
+ 317 61 l 6
+ 429 55 444 -22 444 -51 c 4
+ 444 -169 271 -229 177 -228 c 4
+ 60 -227 -9 -181 -9 -126 c 4xf980
+ -9 -80 41 -37 94 1 c 5
+ 66 14 39 28 39 56 c 4
  39 74 39 87 131 170 c 1
  70 198 34 245 34 306 c 0
  34 430 135 486 214 486 c 0
@@ -5200,12 +5200,12 @@ SplineSet
  162 453 121 428 121 357 c 0xf380
  121 275 148 181 230 181 c 0
  301 181 306 259 306 282 c 0
-415 -67 m 0
- 415 -20 364 -18 286 -16 c 0
- 188 -12 165 -12 116 -2 c 1
- 84 -41 65 -63 65 -94 c 0xf980
- 65 -126 103 -168 221 -168 c 0
- 344 -168 415 -123 415 -67 c 0
+415 -67 m 4
+ 415 -20 364 -18 286 -16 c 4
+ 188 -12 165 -12 116 -2 c 5
+ 84 -41 65 -63 65 -94 c 4xf980
+ 65 -126 103 -168 221 -168 c 4
+ 344 -168 415 -123 415 -67 c 4
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Gsmall
@@ -5873,21 +5873,21 @@ HStem: 0 31<131 275 275 330.5> 439 31<115 153 153 297>
 LayerCount: 2
 Fore
 SplineSet
-428 142 m 1
- 413 0 l 1
- 19 0 l 1
- 19 19 l 1
- 297 439 l 1
- 153 439 l 2
- 77 439 63 404 55 347 c 1
- 33 347 l 1
- 39 474 l 1
- 412 474 l 1
- 412 455 l 1
- 131 35 l 1
- 275 35 l 2
- 386 35 392 64 409 145 c 1
- 428 142 l 1
+428 142 m 5
+ 413 0 l 5
+ 19 0 l 5
+ 19 19 l 5
+ 297 439 l 5
+ 153 439 l 6
+ 77 439 63 404 55 347 c 5
+ 33 347 l 5
+ 39 474 l 5
+ 412 474 l 5
+ 412 455 l 5
+ 131 35 l 5
+ 275 35 l 6
+ 386 35 392 64 409 145 c 5
+ 428 142 l 5
 EndSplineSet
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Greek lookup 3 subtable" Zsmall
@@ -40184,6 +40184,14 @@ SplineSet
  767 -2 l 1
 EndSplineSet
 Validated: 524321
+EndChar
+
+StartChar: uni0225
+Encoding: 549 549 982
+Width: 468
+Flags: HW
+HStem: -230 69<273 280>
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
